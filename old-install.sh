@@ -21,10 +21,10 @@ mas install 497799835 `#Xcode (8.3.3)`
 
 # install `nvm`
 touch ~/.profile
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 
 # install node, yarn etc
-nvm install v12.18.2
+nvm install v16.18.1
 brew install yarn
 yarn global add prettier
 
