@@ -1,30 +1,19 @@
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-echo "\r\n What type of a Mac do you have? (press 1 or 2, then press Enter)"
-echo "  1) Apple Silicon based Mac (M1, M2..)"
-echo "  2) Intel based Mac"
+mkdir -p ~/.R
 
-read n
-case $n in
-	1)
-		echo "\r\nPerforming specific steps for your system..."
-		/bin/bash -c ./apple-silicon-based.sh
-		echo "\r\nDone."
-		;;
-	2)
-		echo "\r\nPerforming specific steps for your system..."
-		/bin/bash -c ./intel-based.sh
-		echo "\r\nDone."
-		;;
-	*)
-		echo "invalid option";;
-esac
+if uname -m | grep -q 'arm64'; then
+	echo "\r\nLooks like you have an Apple Silicon CPU type... performing specific install steps\r\n"
+	cp ./Makevars-applesilicon ~/.R/Makevars
+else
+	echo "\r\nLooks like you have an Intel CPU type... performing specific install steps\r\n"
+	cp ./Makevars-intel ~/.R/Makevars
+fi
 
 brew install --cask r
 brew install --cask rstudio
 
-echo "\r\nRun these two commands inside RStudio to complete the install:\r\n"
-echo 'install.packages("devtools")'
-echo 'devtools::install_github("dexter-psychometrics/dexterMML")'
-echo "\r\n"
+echo "\r\nInstalling DevTools and DexterMML..."
+R -e "install.packages('devtools', repos='http://cran.us.r-project.org')\ndevtools::install_github('dexter-psychometrics/dexterMML')"
+echo "\r\nAll done.\r\n"
