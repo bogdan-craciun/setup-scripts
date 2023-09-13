@@ -11,7 +11,7 @@ else
 	cp ./Makevars-intel ~/.R/Makevars
 fi
 
-brew install gcc
+brew install gcc@11
 brew install --cask r
 brew install --cask rstudio
 
