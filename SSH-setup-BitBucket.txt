@@ -10,3 +10,5 @@ ssh-add BitBucket
 # Go to BitBucket preferences and add the PUBLIC key (URL might need to be adjusted):
 # https://bitbucket.org/amndev/workspace/settings/ssh-keys
 
+# Test you can use it:
+ssh -T git@bitbucket.org
