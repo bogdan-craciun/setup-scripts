@@ -11,3 +11,9 @@ echo "\r\n Installing BREW package manager... \r\n"
 # brew install gh
 # brew install --cask marta
 # 
+# Install this, and the others after it:
+# sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# brew install zsh-syntax-highlighting
+# brew install zsh-completions
+# chmod go-w '/usr/local/share'
