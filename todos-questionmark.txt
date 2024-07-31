@@ -31,5 +31,5 @@ chmod go-w '/opt/homebrew/share'
 chmod -R go-w '/opt/homebrew/share/zsh'
 
 
-git config --global user.email "bogdan@amn.nl"
+git config --global user.email "bogdan@craciun.nl"
 git config --global user.name "Bogdan Craciun"

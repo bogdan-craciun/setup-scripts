@@ -1,4 +1,4 @@
-# Restart containerd:
+# Restart containerd to apply changes and pull in base images:
 
 sudo systemctl restart containerd
 sudo systemctl enable containerd

@@ -1,4 +1,5 @@
 # Install Kubernetes:
+# First, the source is added to the package manager; we use version 1.30 and mark it as held to prevent automatic updates.
 
 sudo curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.30/deb/Release.key | sudo gpg --dearmor -o /usr/share/keyrings/kubernetes-apt-keyring.gpg
 
