@@ -4,200 +4,448 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/ConfigureSheet.nib</key>
+		<key>Resources/Base.lproj/ConfigureSheet.nib</key>
 		<data>
-		+z6OJUbYJSxMsuTXZixqWjoo2q4=
+		NTd9TPFLAYDm98fPPPkqCBkveWQ=
 		</data>
-		<key>Resources/htdocs/fliqlo.min.css</key>
+		<key>Resources/Fliqlo.otf</key>
 		<data>
-		17jSSg+ZGoWA4TMl3BI/78gNIJk=
+		bjLYsEVlQHg/0OuOLthh9LEQXvk=
 		</data>
-		<key>Resources/htdocs/fliqlo.min.js</key>
+		<key>Resources/Fonts/Fliqlo.otf</key>
 		<data>
-		KgT4qSgQE2HptENRwCN4LI4VjWg=
+		bjLYsEVlQHg/0OuOLthh9LEQXvk=
 		</data>
-		<key>Resources/htdocs/fliqlo.woff</key>
+		<key>Resources/da.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e2lZg3PkWfZDJu2Z9a9YQIboNMY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/de.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ejkcRKM6kvuu8KjP7b6xlGjZ+8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/el.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i6Ni3b8iKTQHIH3NWrweldREkO8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/es.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aASA8ZbZAy7RW+s1GhnyxekYmcw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/fi.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ro3ViWErY2QhfR8diVd+9x4NguQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/fr.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			flahhurFhZUS94TFoQjsZ4aVB/o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/id.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZlHR7z357CNhuyoYZCzniMNInAo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/it.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Wn5X8RdfQRo3yJrm9w6UJJe81jI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ja.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LMZ4VUTBHLYtZ7R5oHyNgLQ38pE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ko.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Vnz82ptnpqZZfec4u9wcQYgFS5c=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ms.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hiLE8ZjST+dy+Jya+Bkfpp+E/yE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/nb.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5LIIRAWmikkma8B7xkhRyAT+3MY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/nl.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PUc1cYJZ5NF18mudwwZcVuHVLeo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/pt-PT.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			m8if/nm1XXN9Z+hZ5DlmJ/YM1lQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ru.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OcToLVQJaib3x+oujRTMXY8joMQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/sv.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KmChKYw9n33wiWqOjWEm6LJ/jP8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/th.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			y2dRwH1f5EYVAGSlUfLl43HsDXE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/thumbnail.png</key>
 		<data>
-		J2jaDmHDxZr395TobmRi2FNmGWk=
+		E8R1KrmYNx8JM+i6HtyMgUGG4ew=
 		</data>
-		<key>Resources/htdocs/index.html</key>
-		<data>
-		kTGy34phDqy7zjhaWTBr8xP70gU=
-		</data>
-		<key>Resources/htdocs/vendor/jquery.min.js</key>
-		<data>
-		Lsd6aWkr82WRZhGnMe1tl9XwcD8=
-		</data>
-		<key>Resources/htdocs/vendor/jquery.plugins.min.js</key>
-		<data>
-		7jYpVEthduTpKdnDxLnN0DQQAmc=
-		</data>
-		<key>Resources/thumbnail.tiff</key>
-		<data>
-		0FaTFt19nJ3gTtjcbjUYYV39fGk=
-		</data>
+		<key>Resources/tr.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bmn/hVztg1aj4YPbG4R7zidePiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/uk.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j+ZL4nAKwr2icbuGeaGTkXbbynk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/vi.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nCEwhLCfzZiddOAFyfyNtcYOO/8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/zh-Hans.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wEW4ki/BN7OVEQyHSxToTGUNImc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/zh-Hant.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Gygbu/54NXEjeS1bDe6sC7gAliI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/libswiftCore.dylib</key>
+		<key>Resources/Base.lproj/ConfigureSheet.nib</key>
 		<dict>
-			<key>cdhash</key>
-			<data>
-			6NeDOzae797Q81DsgWFT/dCE3G4=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "39C7Z58M6Y"</string>
-		</dict>
-		<key>Frameworks/libswiftCoreFoundation.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			uwBw47NU6wlNoEtWfWgbihLBQPI=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftCoreFoundation" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "39C7Z58M6Y"</string>
-		</dict>
-		<key>Frameworks/libswiftCoreGraphics.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			1s6yZOTzHffjzPBRnYato0n9tzs=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "39C7Z58M6Y"</string>
-		</dict>
-		<key>Frameworks/libswiftDarwin.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			r3d7EVQTqqaevx/WxV9rx40o0rw=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "39C7Z58M6Y"</string>
-		</dict>
-		<key>Frameworks/libswiftDispatch.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			IXia1gQ0jrbJVREHqmFyCC0toLU=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "39C7Z58M6Y"</string>
-		</dict>
-		<key>Frameworks/libswiftFoundation.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			abp0QFwLTqsUEThXbmCwTGF9EJ8=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "39C7Z58M6Y"</string>
-		</dict>
-		<key>Frameworks/libswiftIOKit.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			kb3sQxwtc5maXmEafaiFsiVA4XA=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftIOKit" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "39C7Z58M6Y"</string>
-		</dict>
-		<key>Frameworks/libswiftObjectiveC.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			k+hCKWwPw7VIhWrKUKUVT8gEbF8=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "39C7Z58M6Y"</string>
-		</dict>
-		<key>Resources/ConfigureSheet.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+z6OJUbYJSxMsuTXZixqWjoo2q4=
-			</data>
 			<key>hash2</key>
 			<data>
-			ZRDprUCaJswZktyYnNn5yNmPeh2asNKMoxaeQqOOTwc=
+			JT+K432G6rsRT/E1PMYbFx7n/a420TiPtCO+r5xjIOY=
 			</data>
 		</dict>
-		<key>Resources/htdocs/fliqlo.min.css</key>
+		<key>Resources/Fliqlo.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			17jSSg+ZGoWA4TMl3BI/78gNIJk=
-			</data>
 			<key>hash2</key>
 			<data>
-			4gwwUt37mEGDnId0BpsKT98zoM1NyGrn2apqu4GzN3E=
+			ZyVoEVBrx2nrRBuhl/eShlJAeKTkVC73+lb7KvZD7Do=
 			</data>
 		</dict>
-		<key>Resources/htdocs/fliqlo.min.js</key>
+		<key>Resources/Fonts/Fliqlo.otf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KgT4qSgQE2HptENRwCN4LI4VjWg=
-			</data>
 			<key>hash2</key>
 			<data>
-			IINkK0sr94KIrBdZAHCHD10+8PSnHC4JijheefdeB14=
+			ZyVoEVBrx2nrRBuhl/eShlJAeKTkVC73+lb7KvZD7Do=
 			</data>
 		</dict>
-		<key>Resources/htdocs/fliqlo.woff</key>
+		<key>Resources/da.lproj/ConfigureSheet.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J2jaDmHDxZr395TobmRi2FNmGWk=
-			</data>
 			<key>hash2</key>
 			<data>
-			nxqYQcVP9abfM7iJaDu4SFsoaPoL5vnNEzDR500cVZ8=
+			dwmroyh0M07DiQ4gDsogi6uOrQJoerpyIA8Fg7G6DXA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/de.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CaLJwCEuj7My2/tVRlQZvgBaZCw4nVAEbmAPqliuMsA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/el.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W7InpZrCXpgD1iCEMZiRJk4QcO9wKsdWB3g+17UGMbk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/es.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j2OkA1vadqRF5k3FwsxPukdNCYlp510xxUgkoiIgUqQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/fi.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0ZSUgJNUi+d/0nkzs10RW7iWwHLmAs5awZfNNDOAKJQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/fr.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1c7LYlBklscOCXyKPBNgNxoD6ZRdAdC2ppp1t2gAAx8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/id.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ShOekagehUYkzLSMD3cWMzHrUHQzWvCTm5nRs0gq16Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/it.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vGX9LfU77A782lrmghUKQRwje2UvjmbOeE8Ouy7MF9I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ja.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yLWdJt4S50tS17iybgeePSdYfbUM+d9O69ymDgk2/io=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ko.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V30E8yaJ4HsI+IgfK23lBsCDOk2B7ouyILPKcsWca74=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ms.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LpuZmianbsc0K02Hc+DKr5dcK9+4V4/igfgd9vCW67w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/nb.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			X7ucG0hjxfI5qr/AZwj3nPc5yeicg8jXce0Jq15O9NA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/nl.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SzszEtzj6C9pkV1loFiSzrhs4xocJStXNPuFuuvjXUs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/pt-PT.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z6gE6o1aDD93prjGLDSr/YqnutUpiBj1g4ozLuz+qD0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ru.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jjKFu74LRUUNcHDODUt8jhQ9fUBzSQLwjymxQoP0Fwc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/sv.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cw0cBRzsRSQR3lqFnnD8S/whd40Tmel8mN8WU5+nCn0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/th.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0rPHfnQN+jkZdxZmAhS4tXFjYERlbIBzKiYwxHav60A=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/thumbnail.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QPXJ5+r6lvEjbxOpBOyL64W4FjEzgcbMoZr4KceVlLA=
 			</data>
 		</dict>
-		<key>Resources/htdocs/index.html</key>
+		<key>Resources/tr.lproj/ConfigureSheet.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kTGy34phDqy7zjhaWTBr8xP70gU=
-			</data>
 			<key>hash2</key>
 			<data>
-			ib4emPCeiw3zaBSZRn+O9qv+crKkkZ7CWZVkcYDGWvE=
+			rxGnb7qnHEEc1m8vsMrHY6u5eAP9TmLZ13IOxXPJzoU=
 			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
-		<key>Resources/htdocs/vendor/jquery.min.js</key>
+		<key>Resources/uk.lproj/ConfigureSheet.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Lsd6aWkr82WRZhGnMe1tl9XwcD8=
-			</data>
 			<key>hash2</key>
 			<data>
-			4FXgYQ1wPAPZDoMQLBHozxSKcu6D/vfBOhcKan5rfLY=
+			hUxbGn0NAPEUiqmbqcBgHYlO5Y3g08cOSpQzclKdIow=
 			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
-		<key>Resources/htdocs/vendor/jquery.plugins.min.js</key>
+		<key>Resources/vi.lproj/ConfigureSheet.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7jYpVEthduTpKdnDxLnN0DQQAmc=
-			</data>
 			<key>hash2</key>
 			<data>
-			VaATbWAYzSvZt5RVhbtk+Xy90wOJe3MpWNPJvyCu/Ow=
+			kE6C4xVtc0XXSpLYkyT5XsOW98bgJaLIVyMt9yFUWdk=
 			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
-		<key>Resources/thumbnail.tiff</key>
+		<key>Resources/zh-Hans.lproj/ConfigureSheet.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0FaTFt19nJ3gTtjcbjUYYV39fGk=
-			</data>
 			<key>hash2</key>
 			<data>
-			y5Kw3ThjO2oLjQp7262gL6+NRFpf5Es3dU3ORy2cqzI=
+			HULO43aIgRzCtBneaU8cq7gtKb5jlKga/6xVvPt4tAw=
 			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/zh-Hant.lproj/ConfigureSheet.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dRMY66T/xEHF2qtwvenbWjDtw50cXDJVhgLI9sHpII0=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
